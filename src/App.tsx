@@ -35,7 +35,7 @@ const App = () => {
         onSubmit={fetchCountriesDetails}
         className="flex justify-center items-center w-full max-w-2xl gap-2 sm:gap-3"
       >
-        <div className="flex flex-1 items-center border-2 border-gray-300 rounded-full overflow-hidden focus-within:ring-2 focus-within:ring-blue-500 bg-white transition">
+        <div className="flex flex-1 items-center border-2 border-gray-300 rounded-2xl overflow-hidden focus-within:ring-2 focus-within:ring-blue-500 bg-white transition">
           <input
             type="text"
             placeholder="Search a country..."
